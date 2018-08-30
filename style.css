@@ -1,0 +1,180 @@
+body {
+    background-image: url("bckgrnd.png");
+    background-size: cover;
+    background-repeat: repeat;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.ProfilePic { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #2c5fa8; 
+    margin-bottom: 40px;
+    z-index: auto;
+}
+
+.nav {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.nav ul {
+   text-align: center;
+   padding: 0px;
+   margin: -10px;
+}
+
+.nav ul li {
+    list-style-type: center;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+top {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333333; 
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    line-height: 1.5;
+    /* margin-top: 30px; */
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    /* margin-right: 0px; */
+    line-height: 1.5;
+}
+
+main { 
+    /* background-color: #99969696; lower page background color */
+    background-color: rgba(150, 150, 150, 0.6);
+    background-size: 100% 60%;
+    color: #FFFFFF;
+}
+
+.bottom {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 24px;
+    line-height: 2;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* padding-bottom: 30px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.arrow {
+    position: relative;
+    float: right;
+    min-width: 140px;
+    top: -50px;
+}
+
+.portfoliolinks {
+    display: block; 
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    border-color: white;
+    border-top: 3px solid #FFFFFF; 
+    padding: 155px 20px 130px 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.portfolioimages  {
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+footer { /*Add a white top border to your footer.*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 3;
+    border-color: white;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    body{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nav {
+        position: relative;
+        top: -80px;
+    }
+
+    .nav ul {
+        text-align: left;
+     }
+
+    .nav ul li {
+        margin-left: 0px;
+    }
+
+    top {
+        margin: 10px;
+    }
+
+    p {
+        margin-right: 200px;
+    }
+
+    .arrow {
+        position: relative;
+        float: right;
+        min-width: 950px;
+        top: -65px;
+    }
+
+    .ProfilePic {
+        position: absolute;
+        left: 1050px;
+        top: 350px;
+        z-index: 2;
+    }
+}
