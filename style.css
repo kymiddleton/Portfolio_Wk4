@@ -241,8 +241,8 @@ footer { /*Add a white top border to your footer.*/
         grid-template-columns: repeat(3, 1fr);
         margin-top: 80px;
         margin-bottom: 80px;
-        margin-left: 80px;
-        margin-right: 80px;
+        /* margin-left: 80px;
+        margin-right: 80px; */
     }
     .image {
         height: 400px; 
