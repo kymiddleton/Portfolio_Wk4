@@ -172,7 +172,7 @@ footer {
 
     .ProfilePic {
         position: absolute;
-        left: 875px;
+        left: 80%;
         top: 20px;
         z-index: 2;
     }
@@ -188,5 +188,4 @@ footer {
     .image {
         height: 350px; 
     }
-
 }
