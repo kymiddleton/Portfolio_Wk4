@@ -1,5 +1,5 @@
 body {
-    background-image: url("bckgrnd.png");
+    background-image: url("../images/bckgrnd.png");
     background-size: cover;
     background-repeat: repeat;
     padding-top: 100px;
@@ -102,27 +102,27 @@ main {
 }
 
 .a {
-    background: url("Portfolio_1.jpeg");
+    background: url("../images/Portfolio_1.jpeg");
 }
 
 .b {
-    background: url("Portfolio_2.jpeg");
+    background: url("../images/Portfolio_2.jpeg");
 }
    
 .c {
-    background: url("Portfolio_3.jpg");
+    background: url("../images/Portfolio_3.jpg");
 }
 
 .d {
-    background: url("Portfolio_1.jpeg");
+    background: url("../images/Portfolio_1.jpeg");
 }
 
 .e {
-    background: url("Portfolio_2.jpeg");
+    background: url("../images/Portfolio_2.jpeg");
 }
 
 .f {
-    background: url("Portfolio_3.jpg");
+    background: url("../images/Portfolio_3.jpg");
 }
 
 .image {
