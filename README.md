@@ -1,23 +1,13 @@
-# Portfolio
+# Portfolio - CSS Grid and DOM Fundamentals
 
+Portfolio project continuation. 
 
-![Homepage:]()
+A web development activity to match the provided design files utilizing CSS grid for both mobile and desktop views.  
 
-![Project View:]()
+Mobile:
 
-# Dependencies:
+![Portfolio_Mobile](images/Portfolio_Mobile.png)
 
+Desktop:
 
-# Getting Started
-
-
-# Deployment
-
-
-# Code Structure
-
-
-# Authors
-
-
-# Acknowledgements
+![portfolio](images/portfolio.png)
